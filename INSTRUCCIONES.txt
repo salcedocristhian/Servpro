@@ -1,0 +1,24 @@
+SERVPRO AI Operations Manager — instalar en Home Screen
+
+1. Abre el repositorio: https://github.com/salcedocristhian/Servpro
+2. Sube a la raiz del branch main estos archivos, reemplazando index.html:
+   index.html
+   manifest.webmanifest
+   service-worker.js
+   icon-192.png
+   icon-512.png
+   icon-maskable-512.png
+   apple-touch-icon.png
+   NO subas INSTRUCCIONES.txt si no quieres.
+3. Espera a que GitHub Actions / Pages termine el despliegue.
+4. Abre https://salcedocristhian.github.io/Servpro/ en Chrome (Android).
+5. Chrome menu (tres puntos) -> Instalar app o Agregar a pantalla de inicio.
+6. En iPhone: Safari -> Compartir -> Agregar a inicio.
+
+NOTAS:
+- La interfaz conserva la demo existente. No estan conectadas APIs reales.
+- El icono incluido es una version grafica conceptual con el nombre SERVPRO.
+- Para utilizar un archivo de marca corporativa exacto, reemplaza los iconos
+  por los oficiales autorizados, manteniendo nombres y tamanos.
+- GitHub Pages sirve una demo publica; no publiques informacion sensible.
+- 'manifest.webmanifest' configura la app; 'index.html' sigue siendo su pantalla.
